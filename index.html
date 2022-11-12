@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<title>Aplicando Bootstrap</title>
+</head>
+<body>
+	<!--NAVEGACION-->
+	<header>
+		<nav>
+			<ul class="nav justify-content-center">
+              <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="#">Juegos</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="#">Nosotros</a>
+              </li>
+            </ul>
+		</nav>
+	</header>
+	<!--CARRUSEL-->
+	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      			<img src="img/capsule_616x353.jpg" class="d-block w-100" alt="...">
+    		</div>
+    		<div class="carousel-item">
+      			<img src="img/resident-evil-2_862x485_wmk.jpg" class="d-block w-100" alt="...">
+    		</div>
+    		<div class="carousel-item">
+      			<img src="img/H2x1_NSwitch_NewSuperMarioBrosUDeluxe_image800w.jpg" class="d-block w-100" alt="...">
+    		</div>
+    		<div class="carousel-item">
+      			<img src="img/SI_Hub_Zelda_Portal_image1600w.jpg" class="d-block w-100" alt="...">
+    		</div>
+    		<div class="carousel-item">
+      			<img src="img/1591426056_491760_1591430644_noticia_normal.jpg" class="d-block w-100" alt="...">
+    		</div>
+  		</div>
+  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Previous</span>
+  		</button>
+  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Next</span>
+  		</button>
+	</div>
+	<!--COLUMNA INTRODUCTORIA-->
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				<h3>Los mejores juegos, los mejores precios</h3>
+				<p>Nos encargamos de ofrecer los mejores juegos en buena calidad y precio.</p>
+			</div>
+		</div>
+	</div>
+	<!--FILA DE JUEGOS -->
+	<div class="imagenes-producto">
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+  						<img src="img/mortal.png" class="card-img-top" alt="...">
+  						<div class="card-body">
+    						<h5 class="card-title">Mortal Kombat - Deception</h5>
+    						<p class="card-text">Un antiguo mal ha regresado de más allá de la muerte y amenaza la existencia misma de los reinos. ¿Tendrá el campeón de los Dioses Ancianos el poder de derrotar esta amenaza de engaño? Diseñado para jugar en los sistemas Sony Playstation 2.</p>
+    						<br><br><br>
+    						<a href="#" class="btn btn-primary">Comprar</a>
+    						<a href="#" class="btn btn-primary">Añadir a carrito</a>
+  						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+  						<img src="img/the-legend-of-zelda-breath-of-the-wild-201732131429_1.jpg" class="card-img-top" alt="...">
+  						<div class="card-body">
+    						<h5 class="card-title">The Legend of Zelda: Breath of the Wild</h5>
+    						<p class="card-text">Se trata de la decimo-octava entrega de la saga Zelda, pero también es el primer juego de la popular serie para la consola de última generación de Nintendo.</p><br><br><br><br><br>
+    						<a href="#" class="btn btn-primary">Comprar</a>
+    						<a href="#" class="btn btn-primary">Añadir a carrito</a>
+  						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+  						<img src="img/mario-kart-8-2014215113854_1.jpg" class="card-img-top" alt="...">
+  						<div class="card-body">
+    						<h5 class="card-title">Mario Kart 8</h5>
+    						<p class="card-text">Mario Kart 8 mezcla la jugabilidad clásica de esta saga de culto con nuevas mejoras jugables como la posibilidad de contar con la gravedad como elemento clave en las carreras. Al amplio elenco de vehículos se le unen nuevos elementos como alas delta y motocicletas además de la capacidad de interactuar con el agua o las paredes verticales</p>
+    						<a href="#" class="btn btn-primary">Comprar</a>
+    						<a href="#" class="btn btn-primary">Añadir a carrito</a>
+  						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+  						<img src="img/resident-evil-resistance-20227102353166_2.jpg" class="card-img-top" alt="...">
+  						<div class="card-body">
+    						<h5 class="card-title">Resident Evil Resistance</h5>
+    						<p class="card-text">Ofrece una experiencia multijugador en línea asimétrica con tintes de terror ambientado en el universo de Resident Evil. De este modo, un usuario jugará como el Cerebro y el resto serán los supervivientes que intentarán escapar de su fortaleza plagada de trampas.</p>
+    						<br><br>
+    						<a href="#" class="btn btn-primary">Comprar</a>
+    						<a href="#" class="btn btn-primary">Añadir a carrito</a>
+  						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+  						<img src="img/mortal.png" class="card-img-top" alt="...">
+  						<div class="card-body">
+    						<h5 class="card-title">Mortal Kombat - Deception</h5>
+    						<p class="card-text">Un antiguo mal ha regresado de más allá de la muerte y amenaza la existencia misma de los reinos. ¿Tendrá el campeón de los Dioses Ancianos el poder de derrotar esta amenaza de engaño? Diseñado para jugar en los sistemas Sony Playstation 2.</p>
+    						<br><br><br>
+    						<a href="#" class="btn btn-primary">Comprar</a>
+    						<a href="#" class="btn btn-primary">Añadir a carrito</a>
+  						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+  						<img src="img/the-legend-of-zelda-breath-of-the-wild-201732131429_1.jpg" class="card-img-top" alt="...">
+  						<div class="card-body">
+    						<h5 class="card-title">The Legend of Zelda: Breath of the Wild</h5>
+    						<p class="card-text">Se trata de la decimo-octava entrega de la saga Zelda, pero también es el primer juego de la popular serie para la consola de última generación de Nintendo.</p><br><br><br><br><br>
+    						<a href="#" class="btn btn-primary">Comprar</a>
+    						<a href="#" class="btn btn-primary">Añadir a carrito</a>
+  						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+  						<img src="img/mario-kart-8-2014215113854_1.jpg" class="card-img-top" alt="...">
+  						<div class="card-body">
+    						<h5 class="card-title">Mario Kart 8</h5>
+    						<p class="card-text">Mario Kart 8 mezcla la jugabilidad clásica de esta saga de culto con nuevas mejoras jugables como la posibilidad de contar con la gravedad como elemento clave en las carreras. Al amplio elenco de vehículos se le unen nuevos elementos como alas delta y motocicletas además de la capacidad de interactuar con el agua o las paredes verticales</p>
+    						<a href="#" class="btn btn-primary">Comprar</a>
+    						<a href="#" class="btn btn-primary">Añadir a carrito</a>
+  						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+  						<img src="img/resident-evil-resistance-20227102353166_2.jpg" class="card-img-top" alt="...">
+  						<div class="card-body">
+    						<h5 class="card-title">Resident Evil Resistance</h5>
+    						<p class="card-text">Ofrece una experiencia multijugador en línea asimétrica con tintes de terror ambientado en el universo de Resident Evil. De este modo, un usuario jugará como el Cerebro y el resto serán los supervivientes que intentarán escapar de su fortaleza plagada de trampas.</p>
+    						<br><br>
+    						<a href="#" class="btn btn-primary">Comprar</a>
+    						<a href="#" class="btn btn-primary">Añadir a carrito</a>
+  						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<!--PIE DE PAGINA -->
+	<footer style="justify-content: center;">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<figure>
+						<img src="img/logo-twitter-png-5862-32x32.ico" style="width: 50px;" alt="">
+					</figure>
+				</div>
+				<div class="col-4">
+					<figure>
+						<a href="https://github.com/YessiVazquez01/YessicaVazquez-Tp2.git"><img src="img/GitHub-Logo.png" style="width: 50px;" alt="" ></a>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--SCRIPT-->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
